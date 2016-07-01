@@ -1,18 +1,23 @@
-<html ng-app="myApp">
+<html ng-app="App">
 <head>
 <meta charset="utf-8">
     <title>Shaastra 2017 | IIT Madras Techfest | Chennai</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="BowerComponents/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="BowerComponents/angular/angular-csp.css">
+
 <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="landingPage.css">
 <script src="BowerComponents/jquery/dist/jquery.js"></script>
 <script src="BowerComponents/angular/angular.min.js"></script>
-
 <script src="BowerComponents/bootstrap/dist/js/bootstrap.js"></script>
- 
+
+ <script type="text/javascript" src="Contact.js"></script>
+
 </head>
-<body ng-controller="MainCtrl">
+<body ng-controller="ContactController as App"> 
+
 <div id="bgstyle">
 <img id="border" src="Images/Border.png"></img>
 <div class="">
@@ -24,10 +29,10 @@
 <img class="man_path_dice" src="Images/Man_Path_Dice.png"></img> 
 <img id="buildingId" src="Images/BuildingID.png"/>
 <img id="Human" src="Images/HumanID.png"/>
-<img id="logo" src="Images/IITMLogo.png"/>
+<a target="_blank" href="https://www.iitm.ac.in/"><img id="logo" src="Images/IITMLogo.png"/></a>
 <div class="social">
-<img id="fb" src="Images/FacebookIcon.png"/>
-<img id="tw" src="Images/TwitterIcon.png"/>
+<a target="_blank" href="https://www.facebook.com/Shaastra"><img id="fb" src="Images/FacebookIcon.png"/></a>
+<a  target="_blank" href="https://twitter.com/ShaastraIITM"><img id="tw" src="Images/TwitterIcon.png"/></a>
 <a href=""  data-toggle="modal" data-target="#basicModal">
 <img id="contact" data-toggle="modal" data-target="#myModal" src="Images/PhoneIcon.png"/><!--adding Modal-->
 </a>
@@ -35,14 +40,29 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel">
-            <b>Contact Us :</h4>
+            <h3 class="modal-title" id="myModalLabel">
+            <b class="Font">Contact Us :</h3>
+            </div></b>
+            <div  class="modal-body">
+            <div ng-repeat="contact in App.contacts">
+             <p class="Font">
+            {{contact.name}}
+             </p>
+            
+           <p class="Font">
+              <div class="glyphicon glyphicon-phone"></div>
+              {{contact.Contact}}
+             </p>
+           <p class="Font">
+             <div class="glyphicon glyphicon-envelope"></div>
+            {{contact.Email}}
+             </p>
+             </div>
+
             </div>
-            <div class="modal-body">
-             <p><b>INFO</p>
-            </div>
+
             <div class="modal-footer">
-                <button type="button" class="btn btn-Info" data-dismiss="modal">Close</button>
+                <button data-dismiss="modal">Close</button>
         </div>
     </div>
   </div>

@@ -1,9 +1,7 @@
-* {
-  margin: 0;
-}
+
 body{
 background: url("Images/Background (With Noise).png");
-
+overflow: hidden;
 }
  #bgstyle
 }
@@ -21,12 +19,13 @@ background: url("Images/Background (With Noise).png");
 	height: 100%;
 }
 #border{
+	margin-top: -1%;
 	width: 100%;
-	height: 100%;
+	height: 98.5%;
 	position:absolute;
 	z-index:5;
 }
-.man_path_dice
+body .man_path_dice
 {
   position:absolute;
   top: 33.5%;
@@ -88,15 +87,14 @@ left: 2%;
 	position: absolute;
 	
 }
-#fb,#tw,#contact{
+#fb,#tw,#contact
+{
 	width: 25%;
 	position: relative;
 	z-index: 9000;
 	padding: 2%;
 	cursor: pointer;
-
 }
-
 .social{
 	position: absolute;
 	top:85%;
@@ -109,4 +107,86 @@ left: 2%;
 }
 .modal-body{
 	height: 40%;
+	overflow-y:scroll;
+}
+.Font{
+font-family: 'Oswald', sans-serif;	
+font-weight: bold;
+}
+
+button {
+    background-color: #0099CC; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.modal-body::-webkit-scrollbar {
+    width: 1.1em;
+}
+ 
+.modal-body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.modal-body::-webkit-scrollbar-thumb {
+  background-color: #0099CC;
+  outline: 1px solid slategrey;
+}
+/*Media queries*/
+
+@media only screen and (max-width: 500px) {
+ body .man_path_dice
+{  
+  left: 20%;
+}
+#logo{
+	width: 8%;
+	top:90%;
+}
+.social{
+	top:90%;
+	width: 22%;
+}
+#dice{
+	width: 20%;
+}
+#way{
+	width: 50%;
+}
+#buildingId{
+	left:77%;
+}
+#Human{
+	left:10%;
+}
+#drone{
+	width: 30%;
+}
+#Drone_text{
+	margin-top:45%;
+}
+}
+
+@media only screen and (max-width: 1062px) {
+
+#buildingId{
+	left:72%;
+}
+}
+
+@media only screen and (max-width: 765px) {
+
+ body .man_path_dice
+{  
+  left: 20%;
+}
+#Human{
+	left:5%;
+}
 }
