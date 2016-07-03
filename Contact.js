@@ -11,12 +11,12 @@ var cont_details = [
 {
 		name:"Concept & Design(1) : Pendse Neil Sanjay",
 		Contact:9176283794,
-		Email:"neil.pendse@gmail.com" ,
+		Email:"neil@shaastra.org" ,
 },
 {
 		name:"Concept & Design(2) : Abhijit S Gupta",
 		Contact:9940439339,
-		Email:"abhijit.sri.gupta@gmail.com" ,
+		Email:"abhijit@shaastra.org" ,
 },
 {
 		name:"Concept & Design(3) : Bharath",
@@ -26,7 +26,7 @@ var cont_details = [
 {
 		name:"Envisage(1) : Harshit Dohare ",
 		Contact:9962879064,
-		Email:"harshit13hd@gmail.com" ,
+		Email:"harshit.dohare@shaastra.org" ,
 },
 {
 		name:"Envisage(2) : Omkar Vanjpe",
@@ -36,12 +36,12 @@ var cont_details = [
 {
 		name:"Events(1) : Adarsh",
 		Contact:9600193202, 
-		Email:"1adarshg@gmail.com" ,
+		Email:"adarshg@shaastra.org" ,
 },
 {
 		name:"Events(2) : Suvindu Ch",
 		Contact:9940248645,
-		Email:"suvindu.ch@gmail.com" ,
+		Email:"suvindu@shaastra.org" ,
 },
 {
 		name:"Events(3) : Rohit Thakran",
@@ -51,57 +51,57 @@ var cont_details = [
 {
 		name:"Evolve(1) : Ramprashanth",
 		Contact:8754443260,
-		Email:"m.ramprashanth@gmail.com" ,
+		Email:"ramprashanth@shaastra.org" ,
 },
 {
 		name:"Evolve(2) : Udith Krishna",
 		Contact:9551113873,
-		Email:"udithsamsung@gmail.com" ,
+		Email:"udithkrishna@shaastra.org" ,
 },
 {
 		name:"Facilities : Harshit Saxena",
 		Contact:9789016167,
-		Email:"harshitsaxena1795@gmail.com" ,
+		Email:"harshit@shaastra.org" ,
 },
 {
 		name:"Finance(1) : Krishi Tata",
 		Contact:9003113121,
-		Email:"krishitata045@gmail.com" ,
+		Email:"krishi@shaastra.org" ,
 },
 {
 		name:"Finance(2) : L Sai Manish ",
 		Contact:7708481881,
-		Email:"saimanish12337@gmail.com" ,
+		Email:"saimanish@shaastra.org" ,
 },
 {
 		name:"Shows and Exhibitions : Nivedita Manepalli",
 		Contact:9940557095,
-		Email:"niveditamanepalli@gmail.com" ,
+		Email:"nivedita.manepalli@shaastra.org" ,
 },
 {
 		name:"Sponsorship & PR(1) : Raghul Manosh",
 		Contact:9940246479,
-		Email:"raghulmanosh9@gmail.com" ,
+		Email:"raghul@shaastra.org" ,
 },
 {
 		name:"Sponsorship & PR(2) :Varun Srinivas Sridharan",
 		Contact:7358540260,
-		Email:"varun.srinivas.sridharan@gmail.com" ,
+		Email:"varun@shaastra.org" ,
 },
 {
 		name:"Media & Student Relations(1) : M Aghamarshana",
 		Contact:8122495355,
-		Email:"aghu1995@gmail.com" ,
+		Email:"aghamarshana@shaastra.org" ,
 },
 {
 		name:"Media & Student Relations(2) : R Rathna Kumar",
 		Contact:9677081113,
-		Email:"rathnakumarravichandran@gmail.com" ,
+		Email:"rathnakumar@shaastra.org" ,
 },
 {
 		name:"Media & Student Relations(3) : Hitesh Singla",
 		Contact:9677043890,
-		Email:"hiteshsingla90@gmail.com" ,
+		Email:"hitesh@shaastra.org" ,
 },
 {
 		name:"Technical Operations(1) : Mohit Kumar",
@@ -111,12 +111,12 @@ var cont_details = [
 {
 		name:"Technical Operations(2) : S.V.Minu Aswanth",
 		Contact:9976448668,
-		Email:"minuapple@gmail.com" ,
+		Email:"minu@shaastra.org" ,
 },
 {
 		name:"QMS(1) : Manish Dhariwal",
 		Contact:9884184032,
-		Email:"manishdhariwal28@gmail.com" ,
+		Email:"manish.dhariwal@shaastra.org" ,
 },
 {
 		name:"QMS(2) : Gunjan",
