@@ -6,7 +6,7 @@ var cont_details = [
 {
 		name:"CoCAS : Animesh Bagora",
 		Contact: 9884299639,
-		Email: "animesh.bagora@gmail.com",
+		Email: "animesh.bagora@shaastra.org",
 },
 {
 		name:"Concept & Design(1) : Pendse Neil Sanjay",
